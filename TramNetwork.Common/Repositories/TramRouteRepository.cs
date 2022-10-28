@@ -14,11 +14,11 @@ namespace TramNetwork.Common.Repositories
                 new TramRoute(){
                     Name = "Bronowice - Bronowice",
                     Coordinators = new List<Vector2>(){
-                        new Vector2(10, 10),
-                        new Vector2(10, 20),
-                        new Vector2(20, 20),
-                        new Vector2(20, 10),
-                        new Vector2(10, 10),
+                        new Vector2(100, 100),
+                        new Vector2(100, 200),
+                        new Vector2(200, 200),
+                        new Vector2(200, 100),
+                        new Vector2(100, 100),
                     }
                 }
             };

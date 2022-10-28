@@ -41,7 +41,8 @@ namespace TramNetwork.Controls
 
         private void drawLine(PaintEventArgs e, float x1, float y1, float x2, float y2)
         {
-            Pen pen = new Pen(Color.FromArgb(135, 147, 255));
+            Pen pen = new Pen(Color.FromArgb(255, 0, 0, 0), 2);
+            pen.DashStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             e.Graphics.DrawLine(pen, x1, y1, x2, y2);
         }
     }
