@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TramNetwork.Common.Repositories;
 using TramNetwork.Managers;
 
 namespace TramNetwork
@@ -19,6 +20,7 @@ namespace TramNetwork
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainPanel());
+            ZTPRepository.Initialize();
             SimulationManager.StartSimulation();
         }
     }

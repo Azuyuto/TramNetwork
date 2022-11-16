@@ -8,6 +8,7 @@ namespace TramNetwork.Common.Models
         public string Name { get; set; }
         public double VisionRange { get; set; }
         public double Speed { get; set; }
+        public double MaxSpeed { get; set; }
 
         public Vector2 Coordinates { get; set; }
     }
